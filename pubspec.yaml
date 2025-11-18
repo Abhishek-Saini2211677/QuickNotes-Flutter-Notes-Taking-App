@@ -1,0 +1,23 @@
+name: quicknotes
+description: A lightweight Flutter note-taking app (MVP).
+publish_to: "none"
+
+
+environment:
+sdk: ">=2.18.0 <4.0.0"
+
+
+dependencies:
+flutter:
+sdk: flutter
+shared_preferences: ^2.1.0
+provider: ^6.0.5
+
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+
+flutter:
+uses-material-design: true
